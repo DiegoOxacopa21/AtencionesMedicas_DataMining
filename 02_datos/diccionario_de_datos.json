@@ -1,0 +1,90 @@
+{
+  "nombre_dataset": "ATENCIONES DE ASEGURADOS DEL SEGURO INTEGRAL DE SALUD",
+  "campos": [
+    {
+      "atributo": "AÑO",
+      "descripcion": "Año de atención",
+      "tipo_dato": "AAAA: Año"
+    },
+    {
+      "atributo": "MES",
+      "descripcion": "Mes de atención",
+      "tipo_dato": "MM: Mes"
+    },
+    {
+      "atributo": "REGION",
+      "descripcion": "Región de la atención",
+      "tipo_dato": "Alfanumérico(200)"
+    },
+    {
+      "atributo": "PROVINCIA",
+      "descripcion": "Provincia de la atención",
+      "tipo_dato": "Alfanumérico(200)"
+    },
+    {
+      "atributo": "UBIGEO_DISTRITO",
+      "descripcion": "Código del Ubigeo del distrito de la Atención",
+      "tipo_dato": "Alfanumérico(6)"
+    },
+    {
+      "atributo": "DISTRITO",
+      "descripcion": "Distrito de la atención",
+      "tipo_dato": "Alfanumérico(200)"
+    },
+    {
+      "atributo": "COD_UNIDAD_EJECUTORA",
+      "descripcion": "Código de Unidad Ejecutora",
+      "tipo_dato": "Alfanumérico(4)"
+    },
+    {
+      "atributo": "DESC_UNIDAD_EJECUTORA",
+      "descripcion": "Unidad Ejecutora de la Atención",
+      "tipo_dato": "Alfanumérico(200)"
+    },
+    {
+      "atributo": "COD_IPRESS",
+      "descripcion": "Registro Nacional de Instituciones Prestadoras de Servicios de Salud (RENIPRESS)",
+      "tipo_dato": "Alfanumérico(10)"
+    },
+    {
+      "atributo": "IPRESS",
+      "descripcion": "Institución Prestadora de Servicios de Salud o Establecimiento de Salud de atención",
+      "tipo_dato": "Alfanumérico(200)"
+    },
+    {
+      "atributo": "NIVEL_EESS",
+      "descripcion": "Nivel de Establecimiento de Salud (I: Nivel I, II: Nivel II, III: Nivel III)",
+      "tipo_dato": "Alfanumérico(1)"
+    },
+    {
+      "atributo": "PLAN_DE_SEGURO",
+      "descripcion": "Tipo de seguro SIS, asociado al listado de beneficios que brinda su cobertura financiera",
+      "tipo_dato": "Alfanumérico(50)"
+    },
+    {
+      "atributo": "COD_SERVICIO",
+      "descripcion": "Código Prestacional",
+      "tipo_dato": "Alfanumérico(3)"
+    },
+    {
+      "atributo": "DESC_SERVICIO",
+      "descripcion": "Descripción del Código Prestacional",
+      "tipo_dato": "Alfanumérico(50)"
+    },
+    {
+      "atributo": "SEXO",
+      "descripcion": "Sexo (Masculino, Femenino)",
+      "tipo_dato": "Alfanumérico(10)"
+    },
+    {
+      "atributo": "GRUPO_EDAD",
+      "descripcion": "Grupo edad de acuerdo a Normas MINSA Vigente (00-04, 05-11, 12-17, 18-29, 30-59, 60+ años)",
+      "tipo_dato": "Alfanumérico(10)"
+    },
+    {
+      "atributo": "ATENCIONES",
+      "descripcion": "Cantidad de Atenciones",
+      "tipo_dato": "Numérico"
+    }
+  ]
+}
