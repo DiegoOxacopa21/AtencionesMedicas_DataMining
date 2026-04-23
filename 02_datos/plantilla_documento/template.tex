@@ -1,0 +1,115 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Makoto Technical Report
+% LaTeX Template
+% Version 1.0 (December 6, 2024)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%!TEX program = xelatex
+% Note: this template must be compiled with XeLaTeX rather than PDFLaTeX
+% due to the custom fonts used. The line above should ensure this happens
+% automatically, but if it doesn't, your LaTeX editor should have a simple toggle
+% to switch to using XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	CLASS, PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	a4paper, % Paper size, use either a4paper or letterpaper
+	%unnumberedsections, % Uncomment for no section numbering
+]{CSMakotoTechnicalReport}
+
+\addbibresource{sample.bib} % BibLaTeX bibliography file
+
+%----------------------------------------------------------------------------------------
+%	REPORT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\reporttitle{Aquí va el Título\\ titulooooo} % The report title to appear on the title page, include new lines if needed
+
+\reportsubtitle{Aquí ingresa una frase\\ interesante que te guste} % Report subtitle, include new lines if needed
+
+\reportauthors{Created by:\\\smallskip Diego Oxacopa (diegooxacopa64@gmail.com)} % Report authors/group/department, include new lines if needed
+
+\reportdate{\today} % Report date, include new lines for additional information if needed
+
+%------------ ENCABEZADO --------------------------------
+%ENCABEZADO DEL DOCUMENTO
+\leftheadercontent{Universidad Nacional de Moquegua} % Report title or other text to appear in the left header
+
+%ENCABEZADO LOGO DEL DOCUMENTO
+\rightheadercontent{\includegraphics[width=3cm]{Images/unamlogo.jpeg}} % The content in the right header, you may want to add your own company logo or use your company/department name or leave this command empty for no right header content
+%--------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+% The code here uses the information set in the REPORT INFORMATION block above and does not need to be modified unless you want to change the layout of the title section.
+
+\thispagestyle{empty} % Suppress headers and footers on this page
+
+\vspace*{-0.075\textheight} % Pull logo into top margin
+
+% LOGO EN PAGINA TITULO
+\hfill\includegraphics[width=5cm]{Images/unamlogo.jpeg} % Right-aligned company logo
+
+\vspace{0.06\textheight} % Vertical whitespace
+
+{\large\raggedright\reportdate\par} % Report date
+
+\vspace{0.01\textheight} % Vertical whitespace
+
+{\fontsize{32pt}{34pt}\selectfont\raggedright\textbf{\reporttitle}\par} % Report title
+
+\vspace{0.03\textheight} % Vertical whitespace
+
+{\Large\raggedright\textit{\textbf{\reportsubtitle}}\par} % Subtitle
+
+\vspace{0.06\textheight} % Vertical whitespace
+
+{\large\raggedright\reportauthors\par} % Report authors, group or department
+
+\vspace{0.12\textheight} % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+
+\begin{multicols}{2} % Begin two column mode
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\tableofcontents % Output the table of contents, automatically generated from the section commands used in the document
+
+%----------------------------------------------------------------------------------------
+%	SECTIONS AND PARAGRAPHS
+%----------------------------------------------------------------------------------------
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	VIEW OF SAMPLES FOR 
+%----------------------------------------------------------------------------------------
+\input{samples/samples}
+
+
+
+\end{multicols}
+\end{document}
