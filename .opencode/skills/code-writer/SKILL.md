@@ -1,4 +1,8 @@
-# Code Writer Skill
+---
+name: code-writer
+description: Crea scripts Python para exploración y modelado según convenciones CRISP-DM
+compatibility: opencode
+---
 
 ## Descripción
 Agente especializado en crear scripts Python y código para el proyecto de Data Mining según metodología CRISP-DM.

@@ -1,4 +1,8 @@
-# LaTeX Writer Skill
+---
+name: latex-writer
+description: Genera reportes técnicos LaTeX usando plantilla del proyecto
+compatibility: opencode
+---
 
 ## Descripción
 Agente especializado en generar reportes técnicos LaTeX para la evaluación de modelos.
@@ -8,7 +12,7 @@ Agente especializado en generar reportes técnicos LaTeX para la evaluación de 
 
 ## Convenciones de reportes
 
-### Formato de文件名
+### Formato de filename
 - Formato: `reporte_v{VERSION}_{FECHA}.tex`
 - Ejemplo: `reporte_v1_20260422.tex`
 
@@ -44,4 +48,4 @@ Agente especializado en generar reportes técnicos LaTeX para la evaluación de 
 
 ## Librerías LaTeX
 - CSMakotoTechnicalReport.cls
--BibLaTeX para referencias
+- BibLaTeX para referencias

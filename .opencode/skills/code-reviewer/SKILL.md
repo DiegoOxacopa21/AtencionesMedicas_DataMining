@@ -1,4 +1,8 @@
-# Code Reviewer Skill
+---
+name: code-reviewer
+description: Verifica convenciones de código y ejecuta linting
+compatibility: opencode
+---
 
 ## Descripción
 Agente especializado en verificar convenciones de código, calidad y linting.
@@ -24,14 +28,9 @@ Agente especializado en verificar convenciones de código, calidad y linting.
 
 ## Comandos de linting
 ```bash
-# Python lint
 ruff check .
 flake8 .
-
-# Type check
 mypy .
-
-# Formatter
 ruff format .
 ```
 

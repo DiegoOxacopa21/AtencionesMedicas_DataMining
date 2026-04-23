@@ -1,21 +1,4 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "instructions": ["AGENTS.md"],
-  "skills": [
-    {
-      "name": "code-writer",
-      "description": "Crea scripts Python para exploración y modelado según convenciones CRISP-DM",
-      "instructions_file": ".opencode/skills/code-writer.md"
-    },
-    {
-      "name": "code-reviewer",
-      "description": "Verifica convenciones de código y ejecuta linting",
-      "instructions_file": ".opencode/skills/code-reviewer.md"
-    },
-    {
-      "name": "latex-writer",
-      "description": "Genera reportes técnicos LaTeX usando plantilla del proyecto",
-      "instructions_file": ".opencode/skills/latex-writer.md"
-    }
-  ]
+  "instructions": ["AGENTS.md"]
 }
