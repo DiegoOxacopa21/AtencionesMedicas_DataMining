@@ -1,9 +1,9 @@
 ================================================================================
 REPORTE DE ELIMINACION - VALORES FALTANTES Y COLUMNAS INNECESARIAS
 ================================================================================
-Fecha: 2026-04-23 21:22:09
-Archivo origen: C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\dataset_unido.csv
-Archivo destino: C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\dataset_corregido.csv
+Fecha: 2026-04-23 22:43:40
+Archivo origen: C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\dataset_sin_columnas.csv
+Archivo destino: C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\dataset_limpio.csv
 
 --------------------------------------------------------------------------------
 ANTES DE LA LIMPIEZA

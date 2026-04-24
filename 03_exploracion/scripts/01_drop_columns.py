@@ -2,7 +2,7 @@ import pandas as pd
 import os
 from datetime import datetime
 
-INPUT_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\raw\dataset_unido.csv'
+INPUT_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\dataset_crudo.csv'
 OUTPUT_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\dataset_sin_columnas.csv'
 
 COLS_TO_DROP = [
