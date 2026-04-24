@@ -60,3 +60,7 @@ Thumbs.db
 *.env
 credentials.json
 secrets.yaml
+
+
+# Ignorar plantilla
+.plantilla_documento

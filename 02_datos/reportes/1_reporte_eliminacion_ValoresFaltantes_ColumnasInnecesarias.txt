@@ -1,0 +1,39 @@
+================================================================================
+REPORTE DE ELIMINACION - VALORES FALTANTES Y COLUMNAS INNECESARIAS
+================================================================================
+Fecha: 2026-04-23 21:22:09
+Archivo origen: C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\dataset_unido.csv
+Archivo destino: C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\dataset_corregido.csv
+
+--------------------------------------------------------------------------------
+ANTES DE LA LIMPIEZA
+--------------------------------------------------------------------------------
+- Total de registros: 36,421,939
+- Registros con valores nulos: 4,059
+- Porcentaje de registros con nulos: 0.01%
+
+--------------------------------------------------------------------------------
+COLUMNAS ELIMINADAS (7)
+--------------------------------------------------------------------------------
+- DESC_UNIDAD_EJECUTORA
+- IPRESS
+- PLAN_SEGURO
+- COD_SERVICIO
+- DESC_SERVICIO
+- SEXO
+- GRUPO_EDAD
+
+--------------------------------------------------------------------------------
+DESPUES DE LA LIMPIEZA
+--------------------------------------------------------------------------------
+- Total de registros finales: 36,417,880
+- Registros eliminados: 4,059
+- Porcentaje de registros eliminados: 0.01%
+
+--------------------------------------------------------------------------------
+VALIDACION
+--------------------------------------------------------------------------------
+- Nulos encontrados en dataset limpio: 0
+- Estado: APROBADO - Sin valores nulos
+
+================================================================================
