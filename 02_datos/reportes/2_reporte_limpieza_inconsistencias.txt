@@ -2,7 +2,7 @@
 REPORTE DE LIMPIEZA DE INCONSISTENCIAS
 ================================================================================
 Fecha: 2026-04-23 22:46:15
-Archivo: C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\dataset_limpio.csv
+Archivo: C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\3_dataset_limpio.csv
 
 --------------------------------------------------------------------------------
 RESUMEN ANTES
@@ -27,6 +27,6 @@ RESULTADOS
 RESUMEN DESPUES
 --------------------------------------------------------------------------------
 - Total de registros finales: 36,407,954
-- Estado: ATENCION: Existen inconsistencias
+- Estado: LIMPIO - Eliminados 9,926 registros
 
 ================================================================================

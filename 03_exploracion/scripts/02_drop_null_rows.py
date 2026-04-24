@@ -2,8 +2,8 @@ import pandas as pd
 import os
 from datetime import datetime
 
-INPUT_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\dataset_sin_columnas.csv'
-OUTPUT_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\dataset_limpio.csv'
+INPUT_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\2_dataset_sin_columnas.csv'
+OUTPUT_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\3_dataset_limpio.csv'
 REPORT_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\reportes\1_reporte_eliminar_filas_y_columnas.txt'
 
 print('=' * 50)

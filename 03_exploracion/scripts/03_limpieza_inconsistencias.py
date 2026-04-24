@@ -17,8 +17,8 @@ import pandas as pd
 import os
 from datetime import datetime
 
-INPUT_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\dataset_limpio.csv'
-OUTPUT_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\dataset_inconsistencias.csv'
+INPUT_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\3_dataset_limpio.csv'
+OUTPUT_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\4_dataset_inconsistencias.csv'
 TEMP_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\temp_inconsistencias.csv'
 REPORT_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\reportes\2_reporte_limpieza_inconsistencias.txt'
 
@@ -92,7 +92,7 @@ RESULTADOS
 RESUMEN DESPUES
 --------------------------------------------------------------------------------
 - Total de registros finales: {guardados:,}
-- Estado: {'DATASET LIMPIO - Sin inconsistencias' if total_eliminados == 0 else 'ATENCION: Existen inconsistencias'}
+- Estado: {'LIMPIO - Sin cambios' if total_eliminados == 0 else f'LIMPIO - Eliminados {total_eliminados:,} registros'}
 
 ================================================================================
 """

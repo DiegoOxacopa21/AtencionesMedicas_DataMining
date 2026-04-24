@@ -2,8 +2,8 @@ import pandas as pd
 import os
 from datetime import datetime
 
-INPUT_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\dataset_crudo.csv'
-OUTPUT_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\dataset_sin_columnas.csv'
+INPUT_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\1_dataset_crudo.csv'
+OUTPUT_FILE = r'C:\Users\diego\dev\projects\AtencionesMedicas_DataMining\02_datos\2_dataset_sin_columnas.csv'
 
 COLS_TO_DROP = [
     'DESC_UNIDAD_EJECUTORA',
